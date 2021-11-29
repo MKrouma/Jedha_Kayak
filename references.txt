@@ -1,0 +1,5 @@
+# openweather
+link : https://openweathermap.org/api/one-call-api
+
+# curl to python 
+link : https://curlconverter.com/
