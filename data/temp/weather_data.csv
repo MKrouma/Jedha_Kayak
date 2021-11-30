@@ -1,36 +1,36 @@
 ,uuid,cities,full_address,latitude,longitude,volume_rain_7days
-0,5a775701-b8d8-4855-a70d-69176c624f37,Mont Saint Michel,"Mont Saint-Michel, Le Mont-Saint-Michel, Avranches, Manche, Normandie, France métropolitaine, 50170, France",48.6359541,-1.511459954959514,5.839
-1,c2392b81-1e45-4825-afe5-9db89ab008a0,St Malo,"Saint-Malo, Ille-et-Vilaine, Bretagne, France métropolitaine, 35400, France",48.649518,-2.0260409,5.299
-2,d3c6bc27-77b2-4a3f-9b38-95c81d974486,Bayeux,"Bayeux, Calvados, Normandie, France métropolitaine, 14400, France",49.2764624,-0.7024738,4.09
-3,e85eb352-1203-4053-a6a0-e87dedad1cba,Le Havre,"Le Havre, Seine-Maritime, Normandie, France métropolitaine, France",49.4938975,0.1079732,4.563
-4,30c70432-fdbc-4c64-8aee-fcff8860dcbd,Rouen,"Rouen, Seine-Maritime, Normandie, France métropolitaine, 76000, France",49.4404591,1.0939658,2.113
-5,aacfc557-8467-4a64-bee3-3e20115eebfd,Paris,"Paris, Île-de-France, France métropolitaine, France",48.8588897,2.3200410217200766,1.89
-6,f9431828-6aff-4f21-b5af-fe276023cd42,Amiens,"Amiens, Somme, Hauts-de-France, France métropolitaine, 80000, France",49.8941708,2.2956951,2.62
-7,323e4f9b-f67c-4a96-b42a-2633e2679928,Lille,"Lille, Nord, Hauts-de-France, France métropolitaine, 59800, France",50.6365654,3.0635282,5.35
-8,be30c9bb-47a4-410a-8386-e657beb6eb9d,Strasbourg,"Strasbourg, Bas-Rhin, Grand Est, France métropolitaine, France",48.584614,7.7507127,3.694
-9,e216561f-1681-48d7-accc-9411c9ab84d0,Chateau du Haut Koenigsbourg,"Château du Haut-Kœnigsbourg, Chemin fermé suite  à travaux, Château du Haut-Kœnigsbourg, Orschwiller, Sélestat-Erstein, Bas-Rhin, Grand Est, France métropolitaine, 67600, France",48.249489800000006,7.34429620253195,3.924
-10,6cdfc20e-d390-411b-adc1-1efd4c0d3176,Colmar,"Colmar, Colmar-Ribeauvillé, Haut-Rhin, Grand Est, France métropolitaine, 68000, France",48.0777517,7.3579641,4.309
-11,54599513-61a5-4597-bae6-b22d9cf749d5,Eguisheim,"Eguisheim, Colmar-Ribeauvillé, Haut-Rhin, Grand Est, France métropolitaine, 68420, France",48.0447968,7.3079618,4.664
-12,985204d8-930d-4de7-b8b3-92b792c4b0d5,Besancon,"Besançon, Doubs, Bourgogne-Franche-Comté, France métropolitaine, 25000, France",47.2380222,6.0243622,5.301
-13,3b8f6442-ef03-4240-9d36-4693a0f42bdf,Dijon,"Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21000, France",47.3215806,5.0414701,3.553
-14,83a02809-a30e-4b83-9f60-36ca5b95f1d9,Annecy,"Annecy, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, France",45.8992348,6.1288847,5.134
-15,9c615cf7-e6a5-4d04-8a92-b5d0a4aad10e,Grenoble,"Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, France",45.1875602,5.7357819,6.638
-16,df4b4401-93e9-4a62-8f97-dbdf860611d7,Lyon,"Lyon, Métropole de Lyon, Circonscription départementale du Rhône, Auvergne-Rhône-Alpes, France métropolitaine, France",45.7578137,4.8320114,3.001
-17,7aa00601-bf8e-4d74-a566-9db3397df918,Gorges du Verdon,"Gorges du Verdon, Route des Crêtes, Les Ferrailles, La Palud-sur-Verdon, Castellane, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, France métropolitaine, 04120, France",43.7496562,6.3285616,0.376
-18,d9dd8ba3-5bf1-45e2-883d-c08aed96e844,Bormes les Mimosas,"Bormes-les-Mimosas, Toulon, Var, Provence-Alpes-Côte d'Azur, France métropolitaine, 83230, France",43.1572172,6.329253867921363,0.665
-19,e48365f9-7e63-4f97-a0f6-34ddfc135229,Cassis,"Cassis, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13260, France",43.2140359,5.5396318,1.06
-20,43411197-166a-43ed-964a-0fc22deec6a4,Marseille,"Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13000, France",43.2961743,5.3699525,1.169
-21,d45b7607-c848-4146-98b2-18b46c249e35,Aix en Provence,"Aix-en-Provence, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, France",43.5298424,5.4474738,1.273
-22,676797cf-6c9f-403a-a3ec-99a34541dc80,Avignon,"Avignon, Vaucluse, Provence-Alpes-Côte d'Azur, France métropolitaine, 84000, France",43.9492493,4.8059012,1.357
-23,e200e2d3-973b-4229-8fd9-f1b32c3d3208,Uzes,"Uzès, Nîmes, Gard, Occitanie, France métropolitaine, 30700, France",44.0121279,4.4196718,1.047
-24,3861a591-4f3b-4414-a510-d57c4f6b23a1,Nimes,"Nîmes, Gard, Occitanie, France métropolitaine, France",43.8374249,4.3600687,0.954
-25,24305f54-0728-47c6-81ef-d2a171a65bc0,Aigues Mortes,"Aigues-Mortes, Nîmes, Gard, Occitanie, France métropolitaine, 30220, France",43.5658225,4.1912837,1.306
-26,490ee39b-c4be-4904-b7a0-fc756a5a6680,Saintes Maries de la mer,"Saintes-Maries-de-la-Mer, Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13460, France",43.4522771,4.4287172,1.227
-27,74fb4f64-c63a-4274-a044-f7f3b5bd3977,Collioure,"Collioure, Céret, Pyrénées-Orientales, Occitanie, France métropolitaine, 66190, France",42.52505,3.0831554,0.082
-28,2b0443a1-227f-4c97-b45d-aaf71a53d2ec,Carcassonne,"Carcassonne, Aude, Occitanie, France métropolitaine, 11000, France",43.2130358,2.3491069,3.027
-29,1abe230d-0f14-463c-a0a0-b55ae1c77eb7,Ariege,"Ariège, Occitanie, France métropolitaine, France",42.9455368,1.4065544156065486,3.691
-30,5b3627cb-d259-46d6-884e-7673ef690e14,Toulouse,"Toulouse, Haute-Garonne, Occitanie, France métropolitaine, France",43.6044622,1.4442469,3.405
-31,d0b978d6-106a-470c-b0f8-5e9e5871d6e6,Montauban,"Montauban, Tarn-et-Garonne, Occitanie, France métropolitaine, 82000, France",44.0175835,1.3549991,3.718
-32,152b7972-5c44-4f33-aaa9-8e281106f9e1,Biarritz,"Biarritz, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64200, France",43.471143749999996,-1.552726590666314,9.738
-33,f65a5c48-ca6c-4d51-a7a8-3114774df94d,Bayonne,"Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64100, France",43.4933379,-1.475099,9.905
-34,8665b65c-d570-467a-b43a-64fe060e7e9a,La Rochelle,"La Rochelle, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17000, France",46.1591126,-1.1520434,4.226
+0,87f71cf6-82e0-4d02-b54e-e291624d4a7a,Mont Saint Michel,"Mont Saint-Michel, Le Mont-Saint-Michel, Avranches, Manche, Normandie, France métropolitaine, 50170, France",48.6359541,-1.511459954959514,7.118
+1,ca7c0a3f-29b6-40d0-b546-4db8b5b6a903,St Malo,"Saint-Malo, Ille-et-Vilaine, Bretagne, France métropolitaine, 35400, France",48.649518,-2.0260409,6.299
+2,fbcb38b4-588f-4699-8627-7b403b728e05,Bayeux,"Bayeux, Calvados, Normandie, France métropolitaine, 14400, France",49.2764624,-0.7024738,4.831
+3,ca21cdf4-e86e-4d3c-a894-f75e6ce20fe6,Le Havre,"Le Havre, Seine-Maritime, Normandie, France métropolitaine, France",49.4938975,0.1079732,5.985
+4,e211db59-98ca-4f5c-a64c-0af6490a83d1,Rouen,"Rouen, Seine-Maritime, Normandie, France métropolitaine, 76000, France",49.4404591,1.0939658,3.425
+5,337cb23d-75a8-4600-b0a0-6aaf14ab1b8d,Paris,"Paris, Île-de-France, France métropolitaine, France",48.8588897,2.3200410217200766,3.074
+6,e9d7263d-7022-4058-9ecc-661044364f9f,Amiens,"Amiens, Somme, Hauts-de-France, France métropolitaine, 80000, France",49.8941708,2.2956951,4.028
+7,066beac3-37cb-4a0c-bbd3-332faaaf9345,Lille,"Lille, Nord, Hauts-de-France, France métropolitaine, 59800, France",50.6365654,3.0635282,6.004
+8,1c87804e-2463-4f8b-81ae-12fa1b7717c2,Strasbourg,"Strasbourg, Bas-Rhin, Grand Est, France métropolitaine, France",48.584614,7.7507127,3.709
+9,fd0e9ab5-2ef3-4732-81c2-7d49f4db7db4,Chateau du Haut Koenigsbourg,"Château du Haut-Kœnigsbourg, Chemin fermé suite  à travaux, Château du Haut-Kœnigsbourg, Orschwiller, Sélestat-Erstein, Bas-Rhin, Grand Est, France métropolitaine, 67600, France",48.249489800000006,7.34429620253195,4.052
+10,dded3711-c772-43bd-9401-1fb13ff46ec0,Colmar,"Colmar, Colmar-Ribeauvillé, Haut-Rhin, Grand Est, France métropolitaine, 68000, France",48.0777517,7.3579641,4.411
+11,1562b761-a84a-4fca-9d87-c9c474f9ac46,Eguisheim,"Eguisheim, Colmar-Ribeauvillé, Haut-Rhin, Grand Est, France métropolitaine, 68420, France",48.0447968,7.3079618,4.777
+12,e72d90cf-9252-4c78-aba4-8d06fcbe849c,Besancon,"Besançon, Doubs, Bourgogne-Franche-Comté, France métropolitaine, 25000, France",47.2380222,6.0243622,5.443
+13,97a758c7-3c0b-4aeb-a221-eeb040210d37,Dijon,"Dijon, Côte-d'Or, Bourgogne-Franche-Comté, France métropolitaine, 21000, France",47.3215806,5.0414701,3.559
+14,41bf74ef-6ff3-4d3f-b281-50abdd72acd4,Annecy,"Annecy, Haute-Savoie, Auvergne-Rhône-Alpes, France métropolitaine, France",45.8992348,6.1288847,5.399
+15,aea900e8-2449-41c9-bb7e-54592de9c735,Grenoble,"Grenoble, Isère, Auvergne-Rhône-Alpes, France métropolitaine, France",45.1875602,5.7357819,6.831
+16,e0bf67f1-1201-4300-8966-3a27da65f958,Lyon,"Lyon, Métropole de Lyon, Circonscription départementale du Rhône, Auvergne-Rhône-Alpes, France métropolitaine, France",45.7578137,4.8320114,3.001
+17,89fd5132-7c08-4eb2-9669-040a267cbe7b,Gorges du Verdon,"Gorges du Verdon, Route des Crêtes, Les Ferrailles, La Palud-sur-Verdon, Castellane, Alpes-de-Haute-Provence, Provence-Alpes-Côte d'Azur, France métropolitaine, 04120, France",43.7496562,6.3285616,0.376
+18,9c4afc28-183c-449e-85f6-672dfdc7aa02,Bormes les Mimosas,"Bormes-les-Mimosas, Toulon, Var, Provence-Alpes-Côte d'Azur, France métropolitaine, 83230, France",43.1572172,6.329253867921363,0.665
+19,0f997a38-7112-4601-a652-414a3027a7a0,Cassis,"Cassis, Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13260, France",43.2140359,5.5396318,1.06
+20,f2402ecb-e935-47cc-9271-5245459216ad,Marseille,"Marseille, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13000, France",43.2961743,5.3699525,1.169
+21,1af774b6-52ae-4c60-b371-bc10d6a33c44,Aix en Provence,"Aix-en-Provence, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, France",43.5298424,5.4474738,1.273
+22,b25edfb9-59c8-4ea8-a785-c541dd41191a,Avignon,"Avignon, Vaucluse, Provence-Alpes-Côte d'Azur, France métropolitaine, 84000, France",43.9492493,4.8059012,1.357
+23,fbfaeec5-dced-417d-b231-6b3e9f9fa000,Uzes,"Uzès, Nîmes, Gard, Occitanie, France métropolitaine, 30700, France",44.0121279,4.4196718,1.047
+24,4880e451-d96c-442c-a01c-3a8b2cdfeadb,Nimes,"Nîmes, Gard, Occitanie, France métropolitaine, France",43.8374249,4.3600687,0.954
+25,ca134083-2361-4102-ba83-b18281af58ef,Aigues Mortes,"Aigues-Mortes, Nîmes, Gard, Occitanie, France métropolitaine, 30220, France",43.5658225,4.1912837,1.306
+26,25831779-40dd-4f9f-95ea-cb9cb26a506c,Saintes Maries de la mer,"Saintes-Maries-de-la-Mer, Arles, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France métropolitaine, 13460, France",43.4522771,4.4287172,1.227
+27,0fb36260-b9fb-4ab8-a42e-d0132ce6b81b,Collioure,"Collioure, Céret, Pyrénées-Orientales, Occitanie, France métropolitaine, 66190, France",42.52505,3.0831554,0.077
+28,52a8a039-15c0-413a-afd6-c91529c065db,Carcassonne,"Carcassonne, Aude, Occitanie, France métropolitaine, 11000, France",43.2130358,2.3491069,2.933
+29,009d2a7b-a86f-474e-96bb-924cf9c48feb,Ariege,"Ariège, Occitanie, France métropolitaine, France",42.9455368,1.4065544156065486,3.574
+30,4de7a96b-c5e9-4ee2-9d88-e8f2d3587913,Toulouse,"Toulouse, Haute-Garonne, Occitanie, France métropolitaine, France",43.6044622,1.4442469,3.214
+31,00dcf017-fbc9-42e7-bc47-d3c8d43be3b8,Montauban,"Montauban, Tarn-et-Garonne, Occitanie, France métropolitaine, 82000, France",44.0175835,1.3549991,3.667
+32,176ebf7f-eef4-44bd-82d3-4754e153833e,Biarritz,"Biarritz, Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64200, France",43.471143749999996,-1.552726590666314,9.181
+33,e6a97d2b-9ada-481a-9f77-8e4eb96b91f8,Bayonne,"Bayonne, Pyrénées-Atlantiques, Nouvelle-Aquitaine, France métropolitaine, 64100, France",43.4933379,-1.475099,9.445
+34,a7e4ac3a-a57c-4ab5-87c8-c6bd3ca5a4cc,La Rochelle,"La Rochelle, Charente-Maritime, Nouvelle-Aquitaine, France métropolitaine, 17000, France",46.1591126,-1.1520434,4.875
