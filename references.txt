@@ -6,3 +6,7 @@ link : https://curlconverter.com/
 
 # plotly scatter mapbox 
 link : https://plotly.com/python/scattermapbox/
+
+# scrapy debugger
+link : https://www.zyte.com/blog/scrapy-tips-from-the-pros-may-2016-edition/
+solution : scrapy shell, scrapy fetch
