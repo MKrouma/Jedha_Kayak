@@ -11,16 +11,6 @@ link : https://plotly.com/python/scattermapbox/
 link : https://www.zyte.com/blog/scrapy-tips-from-the-pros-may-2016-edition/
 solution : scrapy shell, scrapy fetch
 
-# scrapy booking.com (github)
-link : https://github.com/Bursoap/Booking-parser (BEST)
-link : https://github.com/tsadigov/booking_crawler
-link : https://github.com/gkzz/deephotel
-
 # scraoy documentation
 link : https://docs.scrapy.org/en/latest/intro/tutorial.html
-
-
-## response 
-response.css('div.sr__card.js-sr-card div.sr__card_content div.sr__card_m
-    ...: ain_row.bui-spacer--large div.sr__card_main div.hotel-card__text.bui-spac
-    ...: er--medium p::text').getall()
+solution : sracpy crawl shell
