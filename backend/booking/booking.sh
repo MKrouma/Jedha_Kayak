@@ -1,0 +1,1 @@
+scrapy crawl hotels -O hotels-booking.json
