@@ -16,9 +16,17 @@ def clean_text(text) :
 
 # run scrapy bash code as : booking.sh
 def run_scrapy_bash() :
+    """ run scrapy spider as bash code.
+    """
+    
+    # change dir
     os.chdir("./booking")
+
+    # run bash script
     cmd = "sh booking.sh"
     os.system(cmd)
+
+    # change dir
     os.chdir("..")
 
 # clean dataset
