@@ -92,7 +92,7 @@ french_top_35 = ["Mont Saint Michel", "St Malo", "Bayeux", "Le Havre",
 
 # dataset
 weather_data = "../data/temp/weather_data.csv"
-overwrite = True 
+overwrite = False 
 
 if not os.path.exists(weather_data) or overwrite==True:
 
@@ -132,29 +132,33 @@ if not os.path.exists(weather_data) or overwrite==True:
     # save dataframe
     weather_df.to_csv(weather_data)
 
-    # fetch best destinations
-    top_5_destinations = weather_df.sort_values(by=['volume_rain_7days'])[:5]
-    top_20_destinations = weather_df.sort_values(by=['volume_rain_7days'])[:20]
-    display(top_5_destinations.sample(2))
-    display(top_20_destinations.sample(2))
+else :
+    weather_df = pd.read_csv(weather_data, index_col=[0])
 
-    # rename volume col
-    top_5_destinations = top_5_destinations.rename(columns={"volume_rain_7days": "Volume of rain"})
-    top_20_destinations = top_20_destinations.rename(columns={"volume_rain_7days": "Volume of rain"})
 
-    # plot var
-    # cols
-    lat_col = "latitude"
-    lon_col = "longitude"
-    color_col = "Volume of rain"
-    # token
-    mapbox_token_file = "../.mapbox_token"
+# fetch best destinations
+top_5_destinations = weather_df.sort_values(by=['volume_rain_7days'])[:5]
+top_20_destinations = weather_df.sort_values(by=['volume_rain_7days'])[:20]
+display(top_5_destinations.sample(2))
+display(top_20_destinations.sample(2))
 
-    # plot
-    plot(top_5_destinations, lat_col, lon_col, color_col, 
-        mapbox_token_file, "../data/temp/top_5_destinations.png")
-    plot(top_20_destinations, lat_col, lon_col, color_col, 
-        mapbox_token_file, "../data/temp/top_20_destinations.png", zoom=3.5)
+# rename volume col
+top_5_destinations = top_5_destinations.rename(columns={"volume_rain_7days": "Volume of rain"})
+top_20_destinations = top_20_destinations.rename(columns={"volume_rain_7days": "Volume of rain"})
+
+# plot var
+# cols
+lat_col = "latitude"
+lon_col = "longitude"
+color_col = "Volume of rain"
+# token
+mapbox_token_file = "../.mapbox_token"
+
+# plot
+plot(top_5_destinations, lat_col, lon_col, color_col, 
+    mapbox_token_file, "../data/temp/top_5_destinations.png")
+plot(top_20_destinations, lat_col, lon_col, color_col, 
+    mapbox_token_file, "../data/temp/top_20_destinations.png", zoom=3.5)
 
 
 
