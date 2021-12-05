@@ -8,6 +8,7 @@ import uuid
 import requests
 import numpy as np
 import pandas as pd
+import plotly.express as px
 from dotenv import load_dotenv
 from IPython.display import display
 from geopy.geocoders import Nominatim
@@ -58,6 +59,20 @@ def volume_rain(lat, lon, exclude, appid) :
     # return 
     return round(volume_rain_7days,3)
 
+# plot function
+def plot(df, lat_col, lon_col, color_col, mapbox_token_file, figname, zoom=5) :
+    # read token file
+    px.set_mapbox_access_token(open(mapbox_token_file).read())
+
+    # fig
+    fig = px.scatter_mapbox(df, lat=lat_col, lon=lon_col,     
+                        color=color_col, size=color_col,
+                        color_continuous_scale=px.colors.cyclical.IceFire, 
+                        size_max=15, zoom=zoom)
+
+    # save fig
+    fig.write_image(figname)
+    # fig.show()
 
 ## Workflow
 # env variables
@@ -117,8 +132,30 @@ if not os.path.exists(weather_data) or overwrite==True:
     # save dataframe
     weather_df.to_csv(weather_data)
 
-    # plot best destinations
+    # fetch best destinations
     top_5_destinations = weather_df.sort_values(by=['volume_rain_7days'])[:5]
-    display(top_5_destinations)
+    top_20_destinations = weather_df.sort_values(by=['volume_rain_7days'])[:20]
+    display(top_5_destinations.sample(2))
+    display(top_20_destinations.sample(2))
+
+    # rename volume col
+    top_5_destinations = top_5_destinations.rename(columns={"volume_rain_7days": "Volume of rain"})
+    top_20_destinations = top_20_destinations.rename(columns={"volume_rain_7days": "Volume of rain"})
+
+    # plot var
+    # cols
+    lat_col = "latitude"
+    lon_col = "longitude"
+    color_col = "Volume of rain"
+    # token
+    mapbox_token_file = "../.mapbox_token"
+
+    # plot
+    plot(top_5_destinations, lat_col, lon_col, color_col, 
+        mapbox_token_file, "../data/temp/top_5_destinations.png")
+    plot(top_20_destinations, lat_col, lon_col, color_col, 
+        mapbox_token_file, "../data/temp/top_20_destinations.png", zoom=3.5)
+
+
 
 
