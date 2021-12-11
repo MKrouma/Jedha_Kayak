@@ -1,4 +1,4 @@
-""" dockstring to make pylin happy.
+""" dockstring to make pylint happy.
 """
 
 
@@ -60,7 +60,7 @@ def volume_rain(lat, lon, exclude, appid) :
     return round(volume_rain_7days,3)
 
 # plot function
-def plot(df, lat_col, lon_col, color_col, mapbox_token_file, figname, zoom=5) :
+def plot(df, lat_col, lon_col, color_col, mapbox_token_file, figname, zoom=4) :
     # read token file
     px.set_mapbox_access_token(open(mapbox_token_file).read())
 
