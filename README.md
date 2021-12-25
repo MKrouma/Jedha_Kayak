@@ -14,11 +14,11 @@ scrapy run
 ```
 
 ## Stack 
-AWS RDS
-AWS S3
-AWS Boto3
-Scrapy
-PgAdmin
+AWS RDS,
+AWS S3,
+AWS Boto3,
+Scrapy,
+PgAdmin.
 
 ## Structure
 ```dotnetcli
