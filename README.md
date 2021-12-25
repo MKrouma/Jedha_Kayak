@@ -1,7 +1,7 @@
 # Jedha_Kayak
 Kayak project for certification #block1
 
-# Quickstart
+## Quickstart
 ```setup
 python -m venv env
 source env/bin/activate
@@ -13,12 +13,19 @@ cd backend
 scrapy run 
 ```
 
-# Structure
+## Stack 
+AWS RDS
+AWS S3
+AWS Boto3
+Scrapy
+PgAdmin
+
+## Structure
 ```dotnetcli
 `notebook`: research environment.
 `data`: local dataset storage.
 `backend`: code to deploy later in AWS Beanstalk to automate and schedule scrapping.
 ```
 
-# Author
+## Author
 MKrouma
